@@ -13,7 +13,7 @@
   </defs>
 
   <style><![CDATA[
-    #strip{ animation: play 1000s steps(1924) infinite; image-rendering: pixelated; }
+    #strip{ animation: play 10s steps(1924) infinite; image-rendering: pixelated; }
     @keyframes play { to { transform: translateX(-553824px); } }
   ]]></style>
 
