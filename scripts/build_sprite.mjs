@@ -8,7 +8,7 @@ const FRAMES_JSON = "pixelart_frames_72x56_full.json";
 const OUTPUT_SVG  = "card.svg";
 
 // velocidade do loop (ex.: "2.4s", "1.8s", "3s")
-const DURATION = process.env.DURATION || "2.4s";
+const DURATION = process.env.DURATION || "5s";
 
 // fator de escala do frame (↑ tamanho do sprite no card)
 const SCALE = parseInt(process.env.SCALE || "4", 10);
