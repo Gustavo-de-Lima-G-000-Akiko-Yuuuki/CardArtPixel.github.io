@@ -1,0 +1,11 @@
+{
+  "name": "artpixel-card",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  },
+  "scripts": {
+    "build:card": "node scripts/build_sprite.mjs"
+  }
+}
